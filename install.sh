@@ -215,8 +215,8 @@ else
   echo -e "brewpi\nbrewpi\n" | passwd brewpi||die
 fi
 # add pi user to brewpi and www-data group
-usermod -a -G www-data pi||die
-usermod -a -G brewpi pi||die
+usermod -a -G www-data chip||die
+usermod -a -G brewpi chip||die
 
 echo -e "\n***** Checking install directories *****"
 
