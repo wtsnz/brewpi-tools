@@ -342,7 +342,7 @@ checkForUpdates()
 print ""
 
 changed = False
-scriptPath = '/home/brewpi'
+scriptPath = '/home/chip'
 
 # set a first guess for the web path. If files are not found here, the user is asked later
 webPath = '/var/www/html' # default since Jessie
